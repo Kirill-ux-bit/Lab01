@@ -2,13 +2,17 @@
 Console.WriteLine("Визитка системы");
 Console.ResetColor();
 
-string studentName = "Кирилл";
+string studentName = "Юдин Кирилл Александрович";
 string studentGroup = "ПМБИ-261";
+string studentFavouriteLanguage = "C#";
+string studentProgram = "1 месяц";
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.WriteLine("\n[Студент]");
 Console.ResetColor();
 Console.WriteLine($"Имя: {studentName}");
 Console.WriteLine($"Группа: {studentGroup}");
+Console.WriteLine($"Любимый язык программирования: {studentFavouriteLanguage}");
+Console.WriteLine($"Сколько занимаюсь программированием: {studentProgram}");
 Console.WriteLine($"Дата: {DateTime.Now:dd.MM.yyyy HH:mm}");
 
 Console.ForegroundColor = ConsoleColor.Yellow;
@@ -34,4 +38,38 @@ Console.WriteLine($"Размер указателя: {IntPtr.Size * 8} бит");
 
 Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("\nПрограмма выполнена успешно!");
+Console.ResetColor();
+
+Console.ForegroundColor = ConsoleColor.Black;
+Console.WriteLine("Black - Черный текст");
+Console.ForegroundColor = ConsoleColor.DarkBlue;
+Console.WriteLine("DarkBlue - Темно-синий текст");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+Console.WriteLine("DarkGreen - Темно-зеленый текст");
+Console.ForegroundColor = ConsoleColor.DarkCyan;
+Console.WriteLine("DarkCyan - Темно-голубой текст");
+Console.ForegroundColor = ConsoleColor.DarkRed;
+Console.WriteLine("DarkRed - Темно-красный текст");
+Console.ForegroundColor = ConsoleColor.DarkMagenta;
+Console.WriteLine("DarkMagenta - Темно малиновый текст");
+Console.ForegroundColor = ConsoleColor.DarkYellow;
+Console.WriteLine("DarkYellow - Темно-желтый текст");
+Console.ForegroundColor = ConsoleColor.Gray;
+Console.WriteLine("Gray - Серый текст");
+Console.ForegroundColor = ConsoleColor.DarkGray;
+Console.WriteLine("DarkGray - Темно-серый текст");
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.WriteLine("Blue - Синий текст");
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("Green - Зеленый текст");
+Console.ForegroundColor = ConsoleColor.Cyan;
+Console.WriteLine("Cyan - Голубой текст");
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine("Red - Красный текст");
+Console.ForegroundColor = ConsoleColor.Magenta;
+Console.WriteLine("Magenta - малиновый текст");
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.WriteLine("Yellow - Желтый текст");
+Console.ForegroundColor = ConsoleColor.White;
+Console.WriteLine("White - Белый текст");
 Console.ResetColor();
